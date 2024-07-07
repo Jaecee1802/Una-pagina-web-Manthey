@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.head{
+    font-family: "Titillium Web", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    font-style: italic; 
+    background-color: #28282B;
+}
+
+.head h1{
+    color: greenyellow;
+}
+
+.welcome-descr{
+    max-width: 600px;
+    font-family: "Titillium Web", sans-serif;
+    margin-bottom: 20px;
+}
+
+.welc-title{
+    margin-bottom: 30px;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.welcome{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 60px;
+    gap: 30px
+}
+
+.giselle-porsche{
+    width: 100%;
+    height: auto;
+}
+
+.desc{
+    font-weight: 500;
+}
+
+.about-manthey{
+    border: 1px solid #28282B;
+    background-color: #28282B;
+    color: white;
+    display: flex;
+    padding: 10vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5%;
+}
+
+.abt-title-desc{
+    font-family: "Titillium Web", sans-serif;
+}
+
+.abt-desc{
+    font-weight: 500;
+    max-width: 500px;
+    text-justify: inter-word;
+    margin-top: 20px;
+}
+
+.abt-title{
+    font-weight: 700;
+    margin-top: 2%;
+    color: greenyellow;
+    font-size: 50px;
+}
+
+.nine-jump{
+    max-width: 100%;
+    height: auto;
+}
+
+.manthey-achievements{
+    border: 1px solid yellowgreen;
+    background-color: yellowgreen;
+    font-family: "Titillium Web", sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 10vh;
+    gap: 5%;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.achv-title{
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.achv-desc{
+    font-weight: 500;
+    max-width: 500px;
+    margin-top: 20px;
+}
+
+.nine-finish{
+    max-width: 100%;
+    height: auto;
+}
+
+.manthey-drivers{
+    text-align: center;
+    font-family: "Titillium Web", sans-serif;
+    border: 1px solid #28282B;
+    background-color: #28282B;
+}
+
+.driver-title{
+    color: greenyellow;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.kevin-estre, .ayhancan-guven, .thomas-preining, .laurens-vanthoor{
+    background-color: yellowgreen;
+    margin-bottom: 20px;
+    border-radius: 2000px;
+}
+
+.driver-name{
+    color: yellowgreen;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.drivers{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.manthey-logo{
+    display: flex;
+    justify-content: center;
+    background-color: yellowgreen;
+    padding: 60px;
+    flex-wrap: wrap;
+}
+
+.manthey-racing{
+    width: 50%;
+    height: auto;
+}
